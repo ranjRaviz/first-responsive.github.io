@@ -1,0 +1,76 @@
+----- Grid System -----
+
+- 2 rules to remember:
+    (1) Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.
+    E.g.: <div class="container">
+    (2) Only columns may be immediate children of rows.
+
+
+
+- Relative links. E.g.: /html/grid.html
+- Absolute links. E.g.: http://www.google.com
+
+
+
+----- Google Forms -----
+
+- You can create google forms in google drive.
+
+
+
+----- Font Awesome -----
+Get more resources here.
+Reference: http://fontawesome.io/examples/
+
+
+
+----- Spans -----
+
+- Spans help style inline elements.
+
+
+
+----- Centering Block Elements -----
+
+- There's a big difference when centering inline elements with block elements.
+- In order to center a block element, for example hr, is to give it a margin on
+the left and a margin on the right of auto. E.g.: margin: 15px auto;
+- If the block element, <hr> tag is inside a block element with styling as
+text-align: center;, the hr tag will inherit the styling of center.
+
+
+
+- Consider styling per container or section of the page.
+
+
+
+----- Pseudo Class -----
+
+- A sample of a psuedo class is a:hover, wherein :hover is a sudo class of a tag.
+- Opacity is transparency, you can scale from 0 to 1. 1 is not transparent at all.
+
+
+
+----- Beautification Through Background Colors -----
+
+- Wrap the container class div to another container and add a specific
+class to apply a custom styling. E.g.: background-color
+
+
+
+----- All About IDs -----
+
+- ID as a link. IDs are used as values for a tag. E.g.: href="#get-involved-con"
+- You could do href="grid.html#get-involved", it it's from another page.
+
+
+
+----- Media Queries -----
+
+- Setup the media queries for medium devices. Set the max-width to 1199px so that
+the elements will adjust within the max width of 1199px, avoiding the min width of
+large devices which is 1200px.
+- Setup the media queries for small devices from 991px (max) to 768px. Set the max width
+to 991px because the max width of medium device is 992px.
+- Setup the media queries for extra small devices by setting the width to 400px, which
+is the smallest possible.
