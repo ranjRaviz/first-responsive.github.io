@@ -74,3 +74,10 @@ large devices which is 1200px.
 to 991px because the max width of medium device is 992px.
 - Setup the media queries for extra small devices by setting the width to 400px, which
 is the smallest possible.
+
+
+
+----- Getting Your Site Live With Github -----
+
+- Create a new repository name the same as your username to be able to make your
+personal domain. E.g.: https://ranjraviz.github.io/
