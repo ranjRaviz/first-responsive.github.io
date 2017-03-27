@@ -81,3 +81,12 @@ is the smallest possible.
 
 - Create a new repository name the same as your username to be able to make your
 personal domain. E.g.: https://ranjraviz.github.io/
+
+
+
+----- Scrollspy Magic -----
+
+- Add a data-spy="scroll" and data-target="<the container that holds the nav bar>" 
+attribute on the body tag.
+- Use data-offset option to adjust the pixels to offset from top when calculating
+position scroll. Add this attribute on the body element as another attribute.
